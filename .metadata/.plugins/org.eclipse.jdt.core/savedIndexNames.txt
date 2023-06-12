@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+/Users/moisestorres/Desktop/UTH/PAII/Projectos/aplicacion-simple-maven-consola/.metadata/.plugins/org.eclipse.jdt.core
+3464230969.index
+1865797976.index
+994497235.index
+495407891.index
+4133932864.index

@@ -1,0 +1,48 @@
+package hn.uht.torres.aplicacion_simple_maven_consola;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println("Calculadora con Maven" );
+    }
+
+    //metodo lo crea desde el app test, podemos cambiar los valores de las variables y 
+   // solo cambiamos los valores que deseamos que se retornen
+	public static double sumar(double V1, double V2) {
+		// TODO Auto-generated method stub
+		return V1+V2;
+	}
+
+	public static double restar(double V1, double V2) {
+		// TODO Auto-generated method stub
+		return V1-V2;
+	}
+
+	public static int multiplicar(int multiplicando, int multiplicador) {
+		// TODO Auto-generated method stub
+		return multiplicando*multiplicador;
+	}
+	//doublo no acepta negativos y Double si acepta negativos
+
+	public static Double division(double dividendo, souble divisor) {
+		// TODO Auto-generated method stub
+		Double resultado =0.0;
+		if(divisor==0) {
+			resultado = null;
+			System.err.print("No se puede dividir");
+		}else {
+			return dividendo/divisor;
+		}
+		
+	}
+	
+	
+	
+
+	
+}

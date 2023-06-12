@@ -1,0 +1,87 @@
+package hn.uht.torres.aplicacion_simple_maven_consola;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println("Calculadora con Maven" );
+        int opcion=0;
+        while(opcion!=5) {
+        	imprimirmenu();
+        	opcion= leerEnteroteclado("");
+        	if (opcion == 1) {
+        		
+        		
+        		
+        		
+        	}else if (opcion == 2) {
+        		
+        	}else if (opcion == 3) {
+        		
+        	}else if (opcion == 4) {
+        		
+        	}else  {
+        		
+        	}
+        }
+        
+    }
+
+    private static int leerEnteroteclado(String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static void imprimirmenu() {
+		System.out.print("***Calculadora***");
+		System.out.print("1. Sumar");
+		System.out.print("2. Restar");
+		System.out.print("3. Multiplicar");
+		System.out.print("4. Dividir");
+		System.out.print("5. Salir");
+		
+		
+		
+		
+	}
+
+	//metodo lo crea desde el app test, podemos cambiar los valores de las variables y 
+   // solo cambiamos los valores que deseamos que se retornen
+	public static double sumar(double V1, double V2) {
+		// TODO Auto-generated method stub
+		return V1+V2;
+	}
+
+	public static double restar(double V1, double V2) {
+		// TODO Auto-generated method stub
+		return V1-V2;
+	}
+
+	public static int multiplicar(int multiplicando, int multiplicador) {
+		// TODO Auto-generated method stub
+		return multiplicando*multiplicador;
+	}
+	//doublo no acepta negativos y Double si acepta negativos
+
+	public static Double division(double dividendo, double divisor) {
+		// TODO Auto-generated method stub
+		Double resultado =0.0;
+		if(divisor==0) {
+			resultado = null;
+			System.err.print("No se puede dividir");
+		}else {
+			return dividendo/divisor;
+		}
+		return resultado;
+		
+	}
+	
+	
+	
+
+	
+}

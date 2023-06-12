@@ -1,0 +1,28 @@
+package hn.uht.torres.aplicacion_simple_maven_consola;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println("Calculadora con Maven" );
+    }
+
+    //metodo lo crea desde el app test
+	public static String sumar(double d, double e) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static double restar(double d, double e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+	
+}

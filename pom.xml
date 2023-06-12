@@ -2,17 +2,14 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <!-- Valores obligatorio del arhivo POM.xml -->
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>hn.uht.torres</groupId>
+  <groupId>hn.uth</groupId>
   <artifactId>aplicacion-simple-maven-consola</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <!--la union de groupId artifactId version es un valor unico -->
-  <!-- **Valores obligatorios-->
+  <version>1.0.0</version>
 
-  <name>aplicacion-simple-maven-consola</name>
-  <description>A simple aplicacion-simple-maven-consola.</description>
+  <name>aplicacion simple con maven en consola</name>
+  <description>Una aplicacion simple hecha en maven modo consola.</description>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/kcooperhn/ProgAvan2UTH_202302</url>
 
@@ -21,7 +18,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-<!--dependencas de Test JUnit-->
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,7 +26,6 @@
       <version>4.13.2</version>
     </dependency>
   </dependencies>
-  <!--dependencas de Test JUnit-->
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
